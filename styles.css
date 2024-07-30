@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background-color: black;
+  font-family: ubuntu;
+  padding-top: 5em;
+}
+body a {
+  text-decoration: none;
+}
+.navbar {
+  background-color: rgba(32, 33, 36, 1);
+  display: flex;
+  flex-direction: row;
+  gap: 48em;
+  height: 5em;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.navbar h1 {
+  font-size: 2em;
+}
+.navbar input {
+  height: 2.5em;
+  width: 20em;
+  border-radius: 40px;
+  text-align: center;
+  color: black;
+  border: none;
+}
+.navbar input:focus {
+  outline: none;
+}
+.navbar button {
+  height: 2.5em;
+  width: 3.5em;
+  border-radius: 40px;
+  border: none;
+  background-color: lightcoral;
+}
+.navbar button:active {
+  transform: scale(0.9);
+}
+
+.title h1 {
+  margin: 1em auto 0 1em;
+  font-size: 1.8em;
+}
+.grids {
+  margin: 2em 10em;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-auto-rows: auto;
+  gap: 10px 10px;
+}
+.cards {
+  background-color: rgba(32, 33, 36, 1);
+  height: 29em;
+  transition: transform 0.8s ease-in-out;
+  cursor: pointer;
+  width: 250px;
+  height: 490px;
+  border-radius: 5px;
+}
+.cards:hover {
+  transform: translateY(-5px);
+  transition-duration: 0.8ms;
+}
+.card-img {
+  text-align: center;
+  margin-top: 0;
+}
+.card-img img {
+  justify-content: center;
+  width: 13.8em;
+  margin-top: 1em;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.movie-title {
+  font-weight: bold;
+}
+.year-time {
+  display: flex;
+  flex-direction: row;
+  gap: 7em;
+}
+.rating-age {
+  display: flex;
+  flex-direction: row;
+  gap: 7em;
+  margin-top: 12px;
+}
+.rating {
+  background-color: rgb(116, 99, 99);
+  width: 5em;
+  border-radius: 5px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.age {
+  background-color: lightcoral;
+  width: 2em;
+  height: 2em;
+  border-radius: 50px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hidden {
+  display: none;
+}
