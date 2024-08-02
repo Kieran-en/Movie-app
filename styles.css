@@ -134,20 +134,20 @@ body a {
     background-color: rgba(32, 33, 36, 1);
     display: flex;
     flex-direction: row;
-    gap: 85px;
+    gap: 80px;
     height: 100px;
     width: 100%;
   }
 
   .logo {
-    font-size: 10px;
+    font-size: 8px;
     margin-left: 5px;
     
   }
 
   .navbar input {
     height: 30px;
-    width: 160px;
+    width: 170px;
     border-radius: 40px;
     text-align: center;
     color: black;
