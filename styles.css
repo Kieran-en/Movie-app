@@ -162,7 +162,7 @@ body a {
     display: grid;
     grid-template-columns: 200px 200px;
     grid-auto-rows: auto;
-    margin: 2em 1em;
+    margin: 2em 0.5em;
   }
 
   .title h1 {
@@ -176,7 +176,7 @@ body a {
   }
 
   .card-img {
-    width: 190px;
+    width: 195px;
     margin-top: 0;
   }
   
