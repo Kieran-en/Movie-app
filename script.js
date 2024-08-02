@@ -113,7 +113,6 @@ async function searchMovie(movieName) {
   let result = document.getElementById("result");
   let searchHtmlContent = "";
 
-  // heyyy.innerHTML = "";
 
   data.results.forEach((element) => {
     const imageUrl = element.poster_path ? `https://image.tmdb.org/t/p/w500${element.poster_path}` : "placeholder.jpg"; // Use a placeholder if the image is missing
