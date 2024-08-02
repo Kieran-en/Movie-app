@@ -160,7 +160,7 @@ body a {
 
   .grids{
     display: grid;
-    grid-template-columns: 190px 200px;
+    grid-template-columns: 195px 200px;
     grid-auto-rows: auto;
     margin: 2em 0.2em;
   }
