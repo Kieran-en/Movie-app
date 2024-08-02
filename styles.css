@@ -162,7 +162,7 @@ body a {
     display: grid;
     grid-template-columns: 200px 200px;
     grid-auto-rows: auto;
-    margin: 2em 1.5em;
+    margin: 2em 1em;
   }
 
   .title h1 {
