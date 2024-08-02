@@ -140,8 +140,8 @@ body a {
   }
 
   .logo {
-    font-size: 12px;
-    margin-left: 20px;
+    font-size: 10px;
+    margin-left: 0px;
     
   }
 
@@ -162,7 +162,7 @@ body a {
     display: grid;
     grid-template-columns: auto auto;
     grid-auto-rows: auto;
-    margin: 2em 2em;
+    margin: 2em 1.5em;
   }
 
   .title h1 {
