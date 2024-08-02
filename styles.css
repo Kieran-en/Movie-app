@@ -134,7 +134,7 @@ body a {
     background-color: rgba(32, 33, 36, 1);
     display: flex;
     flex-direction: row;
-    gap: 80px;
+    gap: 60px;
     height: 100px;
     width: 100%;
   }
