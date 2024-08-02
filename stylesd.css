@@ -38,10 +38,9 @@
     margin: 20px 280px 100px;
   }
   .title {
-    display: flex;
-    flex-direction: column;
-    
-    gap: 10px;
+   margin: 100px 100px 0px;
+    position: static;
+    font-size: 25px;
   }
   .yyyy {
     display: flex;
@@ -82,3 +81,46 @@
     align-items: center;
     text-align: center;
   }
+
+ @media screen {
+  .navbar{
+    margin: 50px 50px 0px;
+    position: static;
+    font-size: 20px;
+  }
+
+  .tittle{
+    margin: 30px 0px 10px 70px;
+    font-size: 13px;
+  }
+
+  .contents{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 20px 100px 0px;
+  }
+
+  .title {
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+
+  .title img {
+    margin-top: 20px;
+    width: 80%;
+    height: 400px;
+  }
+  
+  .more {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    gap: 10px;
+  }
+
+  .more p {
+    line-height: 35px;
+  }
+ }
